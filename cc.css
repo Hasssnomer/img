@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Nandinagari&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: blue;
+    
+    font-family:  "Noto Sans Nandinagari", sans-serif;
+}
+ul{
+    list-style: none;
+    
+}
+.a {
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+    background: url('./home_bg.jpeg') center center/cover no-repeat;
+    r
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar img {
+    width: 80px;
+    padding: 15px 20p;
+
+}
+.p-text{
+    color: yellow;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+.navbar ul li a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid yellow;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-text {
+    color: white;
+    border: 1px solid white;
+    padding: 8px 8px;
+}
+.btn-text:hover{
+    background-color: yellow;
+    
+}
+
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75VH;
+}
+header .content h1 {
+    font-size: 40px;
+    color: white;
+
+}
+header .content p {
+    color: white;
+    margin: 20px 0;
+}
+header::before {
+    content:"";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0,0.6);
+}
+header *{
+    z-index: 10;
+}
+.btn-text{
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.about {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+.about .title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#about h2 {
+    font-size: 40px;
+    color: #383848;
+    margin-bottom: 20px;
+}
+#about .title p {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+#about .about-content img {
+    width: 450px;
+
+}
+#about .about-content p {
+    color: #9a9a9a;
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.F {
+    width: 50%;
+    
+}
+.x {
+     color: black;
+    border: 1px solid white;
+    padding: 8px 8px;
+
+}
+.x:hover{
+    background-color: yellow;
+}
+#footer{
+    
+    background-color: #383848;
+}
+@media (max-wtidth:600px) {
+    *{
+        flex-direction: column;
+
+    }
+    
+}
